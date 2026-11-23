@@ -1,0 +1,22 @@
+{
+  "name": "Pet Shop Premium",
+  "short_name": "Pet Shop",
+  "description": "Inventario, ventas por kilo, medio saco y saco, reportes y cierre de caja.",
+  "lang": "es-BO",
+  "id": "./",
+  "start_url": "./#inventario",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#F4F2EE",
+  "theme_color": "#FAF8F4",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Venta rápida", "url": "./#venta", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Cierre de caja", "url": "./#caja", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
